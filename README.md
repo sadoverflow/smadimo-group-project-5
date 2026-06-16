@@ -39,34 +39,56 @@ Amazon Marketplace Analytics
 Табличные данные для кластеризации:
 
 uniq_id - уникальный ID товара.
+
 product_name - название товара.
+
 manufacturer - компания производитель.
+
 price - цена товара.
+
 number_available_in_stock - количество доступных единиц на складе.
+
 number_of_reviews - общее количество оставленных отзывов.
+
 number_of_answered_questions - количество отвеченных вопросов о товаре.
+
 average_review_rating - средний рейтинг товара (от 1 до 5 звезд).
+
 amazon_category_and_sub_category - дерево категорий и подкатегорий, к которым относится товар.
+
 customers_who_bought_this_item_also_bought - ссылки на другие товары, которые часто покупают вместе с этим.
+
 description - базовое описание товара.
+
 product_information - технические детали.
+
 product_description - подробное текстовое описание продукта.
+
 items_customers_buy_after_viewing_this_item - рекомендации.
+
 customer_questions_and_answers - блок с вопросами пользователей и ответами на них.
+
 customer_reviews - сами тексты отзывов и заголовки к ним.
+
 sellers - список сторонних продавцов этого товара и их цены в формате JSON.
 
 Текствые данные для анализа тональности отзывов:
 
-Вот значение каждого столбца из этой строчки датасета Amazon:
-
 reviewerID - уникальный ID покупателя.
+
 asin - уникальный ID товара на Amazon.
+
 reviewerName - имя или никнейм покупателя.
+
 helpful - сколько людей посчитали отзыв полезным в формате [лайк, дизлайк].
+
 reviewText - полный текст самого отзыва.
+
 overall - оценка товара от 1 до 5 звезд.
+
 summary - краткий заголовок отзыва.
+
 unixReviewTime - дата отзыва в компьютерном формате Unix timestamp.
+
 reviewTime - дата отзыва в обычном человеческом формате.
 
